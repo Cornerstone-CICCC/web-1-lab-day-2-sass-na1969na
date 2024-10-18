@@ -1,0 +1,19 @@
+header {
+  background: $primary-color;
+  padding: 1px 10px;
+  position: fixed; 
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  nav li {
+      display: inline;
+      margin-right: 10px;
+  }
+}
